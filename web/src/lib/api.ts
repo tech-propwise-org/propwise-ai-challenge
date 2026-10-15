@@ -89,7 +89,7 @@ export class ApiError extends Error {
   }
 }
 
-async function request<T>(path: string, token: string | null, init: RequestInit = {}): Promise<T> {
+async function send(path: string, token: string | null, init: RequestInit = {}): Promise<Response> {
   const response = await fetch(`${API_URL}${path}`, {
     ...init,
     headers: {
@@ -103,7 +103,11 @@ async function request<T>(path: string, token: string | null, init: RequestInit 
     const message = Array.isArray(body?.message) ? body.message.join(', ') : body?.message;
     throw new ApiError(response.status, message ?? `Request failed with ${response.status}`);
   }
-  return (await response.json()) as T;
+  return response;
+}
+
+async function request<T>(path: string, token: string | null, init: RequestInit = {}): Promise<T> {
+  return (await (await send(path, token, init)).json()) as T;
 }
 
 export const api = {
@@ -115,7 +119,12 @@ export const api = {
   listLeads: (token: string, params: { limit: number; offset: number }) =>
     request<Page<LeadSummary>>(`/leads?limit=${params.limit}&offset=${params.offset}`, token),
   getLead: (token: string, leadId: string) => request<LeadDetail>(`/leads/${leadId}`, token),
-  listTasks: (token: string, leadId: string) => request<Task[]>(`/leads/${leadId}/tasks`, token),
+  /** Up to 100 tasks; the API sends the total in the X-Total-Count header. */
+  listTasks: async (token: string, leadId: string): Promise<Page<Task>> => {
+    const response = await send(`/leads/${leadId}/tasks`, token);
+    const items = (await response.json()) as Task[];
+    return { items, total: Number(response.headers.get('X-Total-Count') ?? items.length) };
+  },
   updateTask: (token: string, taskId: string, changes: Partial<Pick<Task, 'status'>>) =>
     request<Task>(`/tasks/${taskId}`, token, { method: 'PATCH', body: JSON.stringify(changes) }),
   getProperty: (token: string, propertyId: string) => request<Property>(`/properties/${propertyId}`, token),

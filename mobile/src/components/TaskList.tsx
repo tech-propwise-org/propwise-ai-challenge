@@ -4,16 +4,23 @@ import { formatDateTime } from '../lib/format';
 
 interface Props {
   tasks: Task[];
+  /** How many the lead has; the list stops at 100. */
+  total: number;
   timeZone: string;
   onToggle: (task: Task) => void;
 }
 
-export function TaskList({ tasks, timeZone, onToggle }: Props) {
+export function TaskList({ tasks, total, timeZone, onToggle }: Props) {
   if (tasks.length === 0) {
     return <Text style={styles.empty}>No tasks for this lead.</Text>;
   }
   return (
     <View style={styles.list}>
+      {total > tasks.length && (
+        <Text style={styles.meta}>
+          Showing the first {tasks.length} of {total} tasks.
+        </Text>
+      )}
       {tasks.map((task) => {
         const done = task.status === 'done';
         return (

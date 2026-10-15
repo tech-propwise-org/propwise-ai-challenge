@@ -5,14 +5,14 @@ import { AssistantPanel } from '../../components/AssistantPanel';
 import { MessageThread } from '../../components/MessageThread';
 import { StatusBadge } from '../../components/StatusBadge';
 import { TaskList } from '../../components/TaskList';
-import { api, ApiError, LeadDetail, Task } from '../../lib/api';
+import { api, ApiError, LeadDetail, Page, Task } from '../../lib/api';
 import { useSession } from '../../lib/session';
 
 export default function LeadScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { session, logout } = useSession();
   const [lead, setLead] = useState<LeadDetail | null>(null);
-  const [tasks, setTasks] = useState<Task[]>([]);
+  const [tasks, setTasks] = useState<Page<Task>>({ items: [], total: 0 });
   const [error, setError] = useState<string | null>(null);
 
   const handleError = useCallback(
@@ -66,7 +66,7 @@ export default function LeadScreen() {
           <MessageThread messages={lead.messages} timeZone={timeZone} />
 
           <Text style={styles.section}>Tasks</Text>
-          <TaskList tasks={tasks} timeZone={timeZone} onToggle={toggleTask} />
+          <TaskList tasks={tasks.items} total={tasks.total} timeZone={timeZone} onToggle={toggleTask} />
         </>
       )}
     </ScrollView>

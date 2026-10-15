@@ -8,7 +8,7 @@ import { AssistantPanel } from '@/components/AssistantPanel';
 import { MessageThread } from '@/components/MessageThread';
 import { StatusBadge } from '@/components/StatusBadge';
 import { TaskList } from '@/components/TaskList';
-import { api, ApiError, LeadDetail, Task } from '@/lib/api';
+import { api, ApiError, LeadDetail, Page, Task } from '@/lib/api';
 import { useRequiredSession, useSession } from '@/lib/session';
 
 export default function LeadPage() {
@@ -16,7 +16,7 @@ export default function LeadPage() {
   const session = useRequiredSession();
   const { logout } = useSession();
   const [lead, setLead] = useState<LeadDetail | null>(null);
-  const [tasks, setTasks] = useState<Task[]>([]);
+  const [tasks, setTasks] = useState<Page<Task>>({ items: [], total: 0 });
   const [error, setError] = useState<string | null>(null);
 
   const handleError = useCallback(
@@ -84,7 +84,7 @@ export default function LeadPage() {
                 <AssistantPanel lead={lead} />
                 <section className="rounded-xl bg-white p-4 ring-1 ring-gray-200">
                   <h2 className="mb-3 font-semibold">Tasks</h2>
-                  <TaskList tasks={tasks} timeZone={timeZone} onToggle={toggleTask} />
+                  <TaskList tasks={tasks.items} total={tasks.total} timeZone={timeZone} onToggle={toggleTask} />
                 </section>
               </div>
             </div>
