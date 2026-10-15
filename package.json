@@ -1,0 +1,19 @@
+{
+  "name": "propwise-ai-challenge",
+  "private": true,
+  "packageManager": "pnpm@10.29.1",
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || >=26.0.0"
+  },
+  "scripts": {
+    "check-machine": "node scripts/check-machine.mjs",
+    "bootstrap": "node scripts/setup.mjs",
+    "db:up": "docker compose up -d --wait",
+    "db:down": "docker compose down",
+    "db:reset": "pnpm -C api db:reset",
+    "dev:api": "pnpm -C api dev",
+    "dev:web": "pnpm -C web dev",
+    "dev:mobile": "pnpm -C mobile start",
+    "check": "pnpm -C api check && pnpm -C web check && pnpm -C mobile check"
+  }
+}

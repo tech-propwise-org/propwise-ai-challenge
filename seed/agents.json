@@ -1,0 +1,18 @@
+[
+  {
+    "key": "sara",
+    "agency": "marina-bay",
+    "name": "Sara Khan",
+    "email": "sara@marinabay.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai"
+  },
+  {
+    "key": "omar",
+    "agency": "desert-key",
+    "name": "Omar Nasser",
+    "email": "omar@desertkey.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai"
+  }
+]
