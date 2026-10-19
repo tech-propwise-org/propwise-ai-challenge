@@ -30,7 +30,7 @@ Keep the UI plain. We are not grading visual design.
 - **Only the agent's own agency.** It never sees or recommends another agency's listings or leads.
 - **Only real, available listings.** Every recommended `propertyId` exists, belongs to the agency and has status `available`. When nothing fits, it says so and recommends nothing.
 - **No side effects without approval.** Running the assistant creates no task and changes no lead, message or property. Approving the same action twice still creates one task.
-- **Dates in the agent's timezone.** Agents work in `Asia/Dubai` (see `agent.timezone`). "Tomorrow" means the day after the message was sent, in that timezone, even if Sara reads it a day later. The UAE weekend is Saturday and Sunday. If the timing is unclear, say so instead of guessing.
+- **Dates in the agent's timezone.** Agents work in `Asia/Dubai` (see `agent.timezone`). "Tomorrow" means the calendar day after the message was sent, in that timezone, even when that day is a Saturday or Sunday, and even if Sara reads it a day later. The UAE weekend is Saturday and Sunday, which matters for phrases like "after the weekend". If the timing is unclear, say so instead of guessing.
 - **Failures are not "nothing found".** If the model or a tool fails, the run says it failed. It never reports "no matching properties" because a search errored.
 
 ## The API contract
