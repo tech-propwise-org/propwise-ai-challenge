@@ -1,0 +1,25 @@
+name: propwise-ai-challenge
+
+services:
+  db:
+    image: postgres:16-alpine
+    # This laptop only: nobody else on the Wi-Fi can reach the database.
+    ports:
+      - '127.0.0.1:5442:5432'
+    environment:
+      POSTGRES_USER: challenge
+      POSTGRES_PASSWORD: challenge
+      POSTGRES_DB: challenge
+    volumes:
+      - ./docker/init-test-db.sql:/docker-entrypoint-initdb.d/01-test-db.sql:ro
+      - db-data:/var/lib/postgresql/data
+    mem_limit: 1g
+    healthcheck:
+      # -h makes it check TCP, which only answers once first-run setup has finished.
+      test: ['CMD-SHELL', 'pg_isready -h 127.0.0.1 -U challenge -d challenge']
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  db-data:

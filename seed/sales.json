@@ -1,0 +1,515 @@
+[
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Gate 2",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1240,
+    "priceAed": 1624000,
+    "soldDaysAgo": 14
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Princess Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1380,
+    "priceAed": 1842000,
+    "soldDaysAgo": 41
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Diamond 3",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1300,
+    "priceAed": 1755000,
+    "soldDaysAgo": 77
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Silverene Tower A",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1420,
+    "priceAed": 1938000,
+    "soldDaysAgo": 103
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Botanica Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1310,
+    "priceAed": 1808000,
+    "soldDaysAgo": 152
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Heights",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1290,
+    "priceAed": 1800000,
+    "soldDaysAgo": 188
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Cayan Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1350,
+    "priceAed": 1917000,
+    "soldDaysAgo": 233
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Quays North",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1400,
+    "priceAed": 2023000,
+    "soldDaysAgo": 281
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Elite Residence",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1260,
+    "priceAed": 1852000,
+    "soldDaysAgo": 318
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Diamond 3",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1300,
+    "priceAed": 1755000,
+    "soldDaysAgo": 77
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Diamond 3",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1300,
+    "priceAed": 1755000,
+    "soldDaysAgo": 77
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Promenade",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1350,
+    "priceAed": 1890,
+    "soldDaysAgo": 63
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Torch Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 13500,
+    "priceAed": 1980000,
+    "soldDaysAgo": 209
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Princess Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1410,
+    "priceAed": 1622000,
+    "soldDaysAgo": 418
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Gate 1",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1320,
+    "priceAed": 1558000,
+    "soldDaysAgo": 507
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Cayan Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1290,
+    "priceAed": 1445000,
+    "soldDaysAgo": 611
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Gate 2",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 850,
+    "priceAed": 1394000,
+    "soldDaysAgo": 30
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina 23",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 780,
+    "priceAed": 1232000,
+    "soldDaysAgo": 95
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Princess Tower",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 900,
+    "priceAed": 1368000,
+    "soldDaysAgo": 160
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Cayan Tower",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 820,
+    "priceAed": 1386000,
+    "soldDaysAgo": 222
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Gate 1",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 870,
+    "priceAed": 1401000,
+    "soldDaysAgo": 300
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Marina Gate 1",
+    "type": "apartment",
+    "bedrooms": 3,
+    "sizeSqft": 1900,
+    "priceAed": 3458000,
+    "soldDaysAgo": 55
+  },
+  {
+    "area": "Dubai Marina",
+    "building": "Damac Heights",
+    "type": "penthouse",
+    "bedrooms": 2,
+    "sizeSqft": 2400,
+    "priceAed": 6240000,
+    "soldDaysAgo": 120
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Lake Terrace",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1380,
+    "priceAed": 1394000,
+    "soldDaysAgo": 33
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Goldcrest Views 1",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1420,
+    "priceAed": 1477000,
+    "soldDaysAgo": 118
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Lake View Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1350,
+    "priceAed": 1431000,
+    "soldDaysAgo": 196
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Al Seef Tower 2",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1400,
+    "priceAed": 1526000,
+    "soldDaysAgo": 289
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Goldcrest Views 1",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1420,
+    "priceAed": 1477000,
+    "soldDaysAgo": 118
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Indigo Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1400,
+    "priceAed": 1420,
+    "soldDaysAgo": 150
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Lake Terrace",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1400,
+    "priceAed": 1232000,
+    "soldDaysAgo": 702
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "building": "Bonnington Tower",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 820,
+    "priceAed": 943000,
+    "soldDaysAgo": 64
+  },
+  {
+    "area": "Business Bay",
+    "building": "Executive Towers",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1250,
+    "priceAed": 1738000,
+    "soldDaysAgo": 21
+  },
+  {
+    "area": "Business Bay",
+    "building": "Paramount Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1180,
+    "priceAed": 1676000,
+    "soldDaysAgo": 87
+  },
+  {
+    "area": "Business Bay",
+    "building": "Damac Maison",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1300,
+    "priceAed": 1872000,
+    "soldDaysAgo": 140
+  },
+  {
+    "area": "Business Bay",
+    "building": "Bay Square",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1220,
+    "priceAed": 1781000,
+    "soldDaysAgo": 205
+  },
+  {
+    "area": "Business Bay",
+    "building": "Churchill Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1350,
+    "priceAed": 1998000,
+    "soldDaysAgo": 262
+  },
+  {
+    "area": "Business Bay",
+    "building": "Merano Tower",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1280,
+    "priceAed": 1933000,
+    "soldDaysAgo": 330
+  },
+  {
+    "area": "Business Bay",
+    "building": "Executive Towers",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1250,
+    "priceAed": 1500000,
+    "soldDaysAgo": 489
+  },
+  {
+    "area": "Business Bay",
+    "building": "Bay Square",
+    "type": "penthouse",
+    "bedrooms": 2,
+    "sizeSqft": 2100,
+    "priceAed": 6195000,
+    "soldDaysAgo": 99
+  },
+  {
+    "area": "Business Bay",
+    "building": "Damac Maison",
+    "type": "apartment",
+    "bedrooms": 0,
+    "sizeSqft": 450,
+    "priceAed": 666000,
+    "soldDaysAgo": 48
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Bloom Towers",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1150,
+    "priceAed": 1162000,
+    "soldDaysAgo": 26
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Belgravia",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1100,
+    "priceAed": 1133000,
+    "soldDaysAgo": 99
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Seasons Community",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1200,
+    "priceAed": 1260000,
+    "soldDaysAgo": 171
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Oxford Residence",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1120,
+    "priceAed": 1198000,
+    "soldDaysAgo": 240
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Binghatti Gate",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1180,
+    "priceAed": 1298000,
+    "soldDaysAgo": 312
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Belgravia",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 11500,
+    "priceAed": 1190000,
+    "soldDaysAgo": 66
+  },
+  {
+    "area": "Jumeirah Village Circle",
+    "building": "Belgravia",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 780,
+    "priceAed": 749000,
+    "soldDaysAgo": 58
+  },
+  {
+    "area": "Downtown Dubai",
+    "building": "Burj Vista 1",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1360,
+    "priceAed": 3672000,
+    "soldDaysAgo": 44
+  },
+  {
+    "area": "Downtown Dubai",
+    "building": "Standpoint Tower A",
+    "type": "apartment",
+    "bedrooms": 1,
+    "sizeSqft": 820,
+    "priceAed": 1624000,
+    "soldDaysAgo": 130
+  },
+  {
+    "area": "Downtown Dubai",
+    "building": "Act One Act Two",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1290,
+    "priceAed": 3290000,
+    "soldDaysAgo": 251
+  },
+  {
+    "area": "Palm Jumeirah",
+    "building": "Shoreline Apartments, Al Hatimi",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1600,
+    "priceAed": 3760000,
+    "soldDaysAgo": 77
+  },
+  {
+    "area": "Palm Jumeirah",
+    "building": "Shoreline Apartments, Al Nabat",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1650,
+    "priceAed": 3779000,
+    "soldDaysAgo": 199
+  },
+  {
+    "area": "Arabian Ranches",
+    "building": "Saheel",
+    "type": "villa",
+    "bedrooms": 4,
+    "sizeSqft": 3800,
+    "priceAed": 6004000,
+    "soldDaysAgo": 140
+  },
+  {
+    "area": "Arabian Ranches",
+    "building": "Alvorada",
+    "type": "villa",
+    "bedrooms": 3,
+    "sizeSqft": 2900,
+    "priceAed": 4205000,
+    "soldDaysAgo": 61
+  },
+  {
+    "area": "Dubai Hills Estate",
+    "building": "Maple 2",
+    "type": "townhouse",
+    "bedrooms": 3,
+    "sizeSqft": 2400,
+    "priceAed": 3264000,
+    "soldDaysAgo": 102
+  },
+  {
+    "area": "International City",
+    "building": "England Cluster",
+    "type": "apartment",
+    "bedrooms": 0,
+    "sizeSqft": 400,
+    "priceAed": 372000,
+    "soldDaysAgo": 37
+  },
+  {
+    "area": "Jumeirah Beach Residence",
+    "building": "Rimal 2",
+    "type": "apartment",
+    "bedrooms": 2,
+    "sizeSqft": 1520,
+    "priceAed": 2569000,
+    "soldDaysAgo": 175
+  }
+]

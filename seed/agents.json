@@ -1,0 +1,79 @@
+[
+  {
+    "key": "sara",
+    "agency": "marina-bay",
+    "name": "Sara Khan",
+    "email": "sara@marinabay.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Dubai Marina", "Jumeirah Lake Towers", "Business Bay", "Downtown Dubai"],
+    "languages": ["en"],
+    "onLeave": false
+  },
+  {
+    "key": "khalid",
+    "agency": "marina-bay",
+    "name": "Khalid Haddad",
+    "email": "khalid@marinabay.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Jumeirah Lake Towers", "Jumeirah Village Circle", "Dubai Marina"],
+    "languages": ["ar", "en"],
+    "onLeave": false
+  },
+  {
+    "key": "layla",
+    "agency": "marina-bay",
+    "name": "Layla Farouk",
+    "email": "layla@marinabay.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Dubai Marina", "Jumeirah Lake Towers", "Jumeirah Beach Residence"],
+    "languages": ["ar", "en"],
+    "onLeave": true
+  },
+  {
+    "key": "daniel",
+    "agency": "marina-bay",
+    "name": "Daniel Reyes",
+    "email": "daniel@marinabay.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Dubai Marina", "Palm Jumeirah", "Jumeirah Beach Residence"],
+    "languages": ["en"],
+    "onLeave": false
+  },
+  {
+    "key": "mariam",
+    "agency": "marina-bay",
+    "name": "Mariam Al Suwaidi",
+    "email": "mariam@marinabay.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Business Bay", "Downtown Dubai", "Dubai Hills Estate"],
+    "languages": ["ar", "en"],
+    "onLeave": false
+  },
+  {
+    "key": "omar",
+    "agency": "desert-key",
+    "name": "Omar Nasser",
+    "email": "omar@desertkey.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Dubai Marina", "Downtown Dubai", "Business Bay", "Jumeirah Village Circle", "Arabian Ranches"],
+    "languages": ["ar", "en"],
+    "onLeave": false
+  },
+  {
+    "key": "rami",
+    "agency": "desert-key",
+    "name": "Rami Khoury",
+    "email": "rami@desertkey.test",
+    "password": "challenge123",
+    "timezone": "Asia/Dubai",
+    "areas": ["Dubai Marina", "Arabian Ranches"],
+    "languages": ["en"],
+    "onLeave": false
+  }
+]
